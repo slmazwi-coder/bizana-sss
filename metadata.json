@@ -1,0 +1,7 @@
+{
+  "name": "Bizana Senior Secondary School",
+  "description": "Bizana SSS is a public no-fee school in ERF 762, Near St Patrick's Hospital, Bizana, 4800, Eastern Cape. Strive for Excellence.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
