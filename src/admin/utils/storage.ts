@@ -337,7 +337,8 @@ const defaultAbout: AboutInfo = {
   historyParagraphs: [
     'Bizana Senior Secondary School is a public no-fee school located in ERF 762, Near St Patrick’s Hospital, Bizana, 4800, Eastern Cape. The school was founded in 1984 by the first principal, Mr W. Madikizela, and serves the local community within the Alfred Nzo East Education District.',
     'Guided by the motto "Strive for Excellence", Bizana SSS is committed to excellence in teaching and learning, building strong working relationships among teachers, parents and learners, and providing a welcoming atmosphere to all stakeholders.',
-    'The school offers Grades 8 to 12 and has a dedicated team of 51 educators. Our FET programmes include core and elective subjects across Sciences, Commerce and Humanities.',
+    'The school is also renowned for its choral music excellence. The choir, started in 1996 and currently conducted by Mr S. Chithelo, has won trophies at district, provincial and national SASCE competitions, including the 2026 Provincial SASCE Champ of Champs in Ku Gompo City.',
+    'The school offers Grades 8 to 12 and has a dedicated team of 51 educators. Our FET programmes include core and elective subjects across Sciences, Commerce and Humanities.'
   ],
   principalName: 'Mr X. Bhani',
   principalTitle: 'Principal',

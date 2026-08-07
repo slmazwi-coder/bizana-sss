@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Award, TrendingUp, Users, Megaphone, ArrowRight } from 'lucide-react';
+import { Award, TrendingUp, Users, Megaphone, ArrowRight, Music } from 'lucide-react';
 
 const stats = [
   { label: 'Learners Enrolled', value: '1,900+', icon: Users },
@@ -36,23 +36,23 @@ export const Home = () => {
               </div>
             </div>
 
-            <div className="rounded-3xl border border-gray-200 bg-gray-50 p-6 sm:p-7 flex gap-4 items-start">
-              <div className="p-3 rounded-2xl bg-white border border-gray-200 text-[#7B1B2B] shrink-0">
-                <Megaphone size={22} />
+            <div className="rounded-3xl border border-[#D4AF37] bg-[#FDF9EC] p-6 sm:p-7 flex gap-4 items-start">
+              <div className="p-3 rounded-2xl bg-white border border-[#D4AF37] text-[#7B1B2B] shrink-0">
+                <Music size={22} />
               </div>
               <div className="min-w-0">
                 <div className="flex flex-wrap items-center gap-2">
-                  <div className="text-sm font-black uppercase tracking-widest text-[#7B1B2B]">Info</div>
-                  <span className="px-2 py-1 rounded-full text-xs font-bold bg-white border border-gray-200 text-gray-700">
-                    School
+                  <div className="text-sm font-black uppercase tracking-widest text-[#7B1B2B]">Headline</div>
+                  <span className="px-2 py-1 rounded-full text-xs font-bold bg-[#D4AF37] text-[#7B1B2B]">
+                    2026
                   </span>
                 </div>
-                <h3 className="text-xl font-extrabold text-gray-900 mt-2">No-fee school in Bizana</h3>
+                <h3 className="text-xl font-extrabold text-gray-900 mt-2">Champ of Champs</h3>
                 <p className="text-gray-700 mt-1">
-                  Bizana SSS is a Quintile 3 no-fee school offering Grades 8–12 in ERF 762, Near St Patrick's Hospital, Bizana, 4800.
+                  Bizana SSS was crowned Champ of Champs at the 2026 provincial SASCE choir competition in Ku Gompo City — and is now National Bound.
                 </p>
-                <a href="/contact" className="mt-4 inline-flex items-center gap-2 text-[#7B1B2B] font-bold">
-                  Contact school <ArrowRight size={18} />
+                <a href="/achievements" className="mt-4 inline-flex items-center gap-2 text-[#7B1B2B] font-bold">
+                  See achievements <ArrowRight size={18} />
                 </a>
               </div>
             </div>
@@ -81,6 +81,59 @@ export const Home = () => {
               </div>
             </motion.div>
           ))}
+        </div>
+      </section>
+
+      {/* Music Showcase */}
+      <section className="py-16 bg-[#FDF9EC]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4 }}
+            >
+              <img
+                src="/assets/hero/hero1.jpg"
+                alt="Bizana SSS choir at SASCE"
+                className="w-full h-80 object-cover rounded-3xl shadow-2xl border-4 border-white"
+              />
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.1 }}
+            >
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#D4AF37] text-[#7B1B2B] text-xs font-black uppercase tracking-widest mb-4">
+                <Music size={14} /> Music Excellence
+              </div>
+              <h2 className="text-3xl md:text-4xl font-black text-[#7B1B2B] mb-4">Choir — Our Crown Jewel</h2>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                From its start in 1996, the Bizana SSS choir has lifted trophies at district, provincial and national SASCE competitions. In 2026 the choir was crowned Champ of Champs at the provincial SASCE competition held in Ku Gompo City, Eastern Cape, and is now National Bound. The choir is conducted by Mr S. Chithelo.
+              </p>
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Music, discipline and teamwork shape confident, expressive learners — and this choir continues to make the school proud on South Africa’s biggest choral stages.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href="/achievements"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold transition-all hover:-translate-y-0.5"
+                  style={{ background: '#7B1B2B', color: '#D4AF37' }}
+                >
+                  Achievements <ArrowRight size={18} />
+                </a>
+                <a
+                  href="/activities"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold border-2 transition-all hover:-translate-y-0.5"
+                  style={{ borderColor: '#7B1B2B', color: '#7B1B2B' }}
+                >
+                  Arts & Culture
+                </a>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 

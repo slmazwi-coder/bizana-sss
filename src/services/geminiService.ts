@@ -29,7 +29,7 @@ School details:
 History:
 - Bizana Senior Secondary School was founded in 1984 by the first principal, Mr W. Madikizela, in the town of Bizana, Eastern Cape.
 - The school choir was started in 1996 by Mr V.J. Dumela and has since won trophies at district, provincial and national SASCE competitions.
-- The current choir conductor is Mr S. Chithelo; under his leadership the choir was promoted to the Champ of Champs Category in the 2025 National SASCE Championships.
+- The current choir conductor is Mr S. Chithelo; under his leadership the choir was promoted to the Champ of Champs Category in the 2025 National SASCE Championships and crowned Champ of Champs at the 2026 Provincial SASCE competition in Ku Gompo City, Eastern Cape.
 
 Application and admissions:
 - Online applications can be submitted at /admissions.

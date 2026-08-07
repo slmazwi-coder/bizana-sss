@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Music } from 'lucide-react';
 
 const slides = [
   { url: '/assets/hero/hero1.jpg', caption: 'Our award-winning choir' },
@@ -97,11 +97,20 @@ export const Hero = () => {
           initial={ { opacity: 0, y: 12 } }
           animate={ { opacity: 1, y: 0 } }
           transition={ { duration: 0.5, delay: 0.18 } }
-          className="text-base md:text-xl font-light italic mb-8"
+          className="text-base md:text-xl font-light italic mb-4"
           style={ { color: 'rgba(212,175,55,0.8)' } }
         >
           "Strive for Excellence"
         </motion.p>
+
+        <motion.div
+          initial={ { opacity: 0, y: 12 } }
+          animate={ { opacity: 1, y: 0 } }
+          transition={ { duration: 0.5, delay: 0.22 } }
+          className="mb-8 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#D4AF37] text-[#7B1B2B] font-extrabold text-xs md:text-sm uppercase tracking-widest shadow-2xl"
+        >
+          <Music size={18} /> 2026 Provincial SASCE — Champ of Champs
+        </motion.div>
 
         <motion.div
           initial={ { opacity: 0, y: 12 } }

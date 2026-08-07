@@ -1,7 +1,12 @@
 import React from 'react';
-import { BookOpen, Mic, Sigma, Brain, Globe, PenTool } from 'lucide-react';
+import { BookOpen, Mic, Sigma, Brain, Globe, PenTool, Music } from 'lucide-react';
 
 const activities = [
+  {
+    name: 'Choir',
+    icon: Music,
+    description: 'Award-winning choral music — 2026 Provincial SASCE Champ of Champs and National Bound.',
+  },
   {
     name: 'Spelling Bee',
     icon: PenTool,
