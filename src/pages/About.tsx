@@ -170,6 +170,10 @@ export const About = () => {
                   </p>
                 </div>
 
+                <div className="mt-8 inline-flex items-center gap-2 bg-[#D4AF37] text-[#7B1B2B] px-5 py-3 rounded-xl font-extrabold text-sm sm:text-base uppercase tracking-wider shadow-md">
+                  Principal's slogan: "Study and study until you study"
+                </div>
+
                 {/* Closing quote mark — decorative only */}
                 <div className="text-[#7B1B2B] text-6xl font-serif leading-none mt-2 text-right opacity-40 select-none">
                   "

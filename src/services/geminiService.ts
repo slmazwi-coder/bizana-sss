@@ -11,6 +11,7 @@ School details:
 - Phone: 071 891 7774 / 083 392 5640 / 039 251 0384
 - WhatsApp/School cell: 083 392 5640
 - Principal: Mr X. Bhani
+- Principal's famous slogan: "Study and study until you study"
 - Email: 200500041@ecschools.org.za
 - EMIS Number: 200500041
 - Quintile / fee status: Quintile 3, No-Fee school

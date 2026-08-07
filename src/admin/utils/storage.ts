@@ -345,7 +345,7 @@ const defaultAbout: AboutInfo = {
   principalMessage: [
     'Welcome to Bizana Senior Secondary School. We are committed to excellence in everything we do so that our learners become responsible citizens.',
     'We strive to create an environment that is conducive for teaching and learning, to build good working relations between teachers, parents and learners, and to provide a welcoming atmosphere to all stakeholders visiting the school.',
-    'Together we strive for excellence.',
+    'Remember the words we live by: "Study and study until you study." Together we strive for excellence.',
   ],
 };
 export const getAbout = () => getObject<AboutInfo>('admin_about', defaultAbout);
